@@ -31,9 +31,11 @@ public class ExampleTest extends BaseTest {
     @Test
     @Order(2)
     @Story("Portal UI")
+	
     @Description("This test demonstrates how to use Selenide, JUnit5, Allure...")
     void failedTest() {
         this.portalPage.verifyDashboardTitle("Teacher Portal");
+	System.out.println("Veena");
     }
 
     @Test
